@@ -5,6 +5,9 @@
     "infra": "bin/infra.js"
   },
   "scripts": {
+    "bootstrap": "cdk bootstrap", 
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy",
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
